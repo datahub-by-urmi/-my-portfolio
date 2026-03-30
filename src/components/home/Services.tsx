@@ -200,7 +200,7 @@ const ExperienceCard = ({
           {exp.coverImage ? (
             <img
               src={exp.coverImage}
-              alt={`${exp.role} cover`}
+
               className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
               draggable={false}
             />
@@ -213,10 +213,8 @@ const ExperienceCard = ({
 
           {/* role text only */}
           <div className="absolute left-6 right-6 bottom-6">
-            <h3 className="text-2xl font-bold text-white leading-tight">
-              {exp.role}
-            </h3>
-            <p className="text-primary text-sm font-semibold mt-1 uppercase tracking-wider">{exp.company}</p>
+
+
           </div>
         </div>
 
@@ -231,12 +229,10 @@ const ExperienceCard = ({
           <div className="h-full p-8 flex flex-col text-white">
             <div>
               <p className="text-xs uppercase tracking-widest text-primary/80">
-                {exp.company}
+
                 {exp.location ? ` · ${exp.location}` : ""}
               </p>
-              <h3 className="mt-2 text-2xl font-bold text-white">
-                {exp.role}
-              </h3>
+
               <p className="mt-1 text-sm text-gray-400">
                 {exp.duration}
               </p>

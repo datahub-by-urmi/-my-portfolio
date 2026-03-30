@@ -60,7 +60,7 @@ export default async function handler(
   try {
     await resend.emails.send({
       from: "Portfolio <onboarding@resend.dev>",
-      to: ["savaliya686@gmail.com"],
+      to: ["urmi.soni.analytics@gmail.com"],
       subject: "New contact form message",
       replyTo: email,
       html: `

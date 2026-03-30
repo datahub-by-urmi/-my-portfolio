@@ -36,17 +36,17 @@ export const Skills = () => {
               transition={{ duration: 0.5, delay: idx * 0.05 }}
               className="group flex flex-col items-center gap-4 text-center"
             >
-              <div className="h-24 w-24 rounded-2xl bg-[#111111] border border-white/5 flex items-center justify-center p-5 group-hover:border-primary/40 transition-all duration-300 group-hover:-translate-y-2">
+              <div className="h-24 w-24 rounded-2xl bg-[#111111] border border-white/5 flex items-center justify-center p-5">
                 <div className="relative h-full w-full">
                   <Image
                     src={skill.icon}
                     alt={skill.name}
                     fill
-                    className="object-contain opacity-80 group-hover:opacity-100 transition-opacity grayscale group-hover:grayscale-0"
+                    className="object-contain"
                   />
                 </div>
               </div>
-              <span className="text-sm font-bold text-gray-400 group-hover:text-white transition-colors">
+              <span className="text-sm font-bold text-gray-400">
                 {skill.name}
               </span>
             </motion.div>

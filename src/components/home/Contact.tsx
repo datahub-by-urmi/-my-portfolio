@@ -72,7 +72,7 @@ export const Contact = () => {
 
                 </p>
                 <p className="mt-2 text-[18px] text-gray-300">
-                  urmi.soni.data@gmail.com
+                  urmi.soni.analytics@gmail.com
                 </p>
               </div>
 
