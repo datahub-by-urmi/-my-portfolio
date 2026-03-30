@@ -5,9 +5,9 @@ export type HobbyImage = {
 }
 
 export const hobbiesImages: HobbyImage[] = [
-  { src: "/hobbies/1.JPG", alt: "Hobby image 1", shape: "wide" },
+  { src: "/hobbies/1.jpg", alt: "Hobby image 1", shape: "wide" },
   { src: "/hobbies/2.jpg", alt: "Hobby image 2", shape: "tall" },
-  { src: "/hobbies/3.JPG", alt: "Hobby image 3", shape: "big" },
+  { src: "/hobbies/3.jpg", alt: "Hobby image 3", shape: "big" },
   { src: "/hobbies/4.jpg", alt: "Hobby image 4", shape: "mid" },
   { src: "/hobbies/5.jpg", alt: "Hobby image 5", shape: "wide" },
   { src: "/hobbies/6.jpeg", alt: "Hobby image 6", shape: "tall" },
